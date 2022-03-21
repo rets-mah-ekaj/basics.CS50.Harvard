@@ -43,3 +43,15 @@ Similarly, we can represent the binary numbers in the powers of 2, like:
 - => (4 * 0) + (2 * 1) + (1 * 1)
 - => 0 + 2 + 1
 - => 3 (converted binary 011 to decimal equivalent, i.e. 3)
+---
+### [ASCII - American Standard Code for Information Interchange](https://en.wikipedia.org/wiki/ASCII)
+It is a standard code agreed in general by all humans to represent symbols (numbers, letters, punctuation, etc.)
+Example:
+- 65 to 90 represents 'A' to 'Z'.
+- 97 to 122 represents 'a' to 'z'.
+- 48 to 57 represents '0' to '9'.
+
+> So when someone sends a message as "HI!", it is actually sent as "72 73 33" which is represented in the form binary language as "1001000 1001001 0100001".
+
+#### ASCII Table from 0 to 127
+![ASCII Table from 0 to 127](./ASCII_Table.png)
