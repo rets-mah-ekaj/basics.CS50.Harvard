@@ -55,3 +55,8 @@ Example:
 
 #### ASCII Table from 0 to 127
 ![ASCII Table from 0 to 127](./ASCII_Table.png)
+---
+
+Disadvantage of ASCII:
+- Limited character set - With extended ASCII also, we can represent only 256 characters.
+- Inefficient character encoding - ASCII encoding is efficient only for English language and numerical data but representing characters from other alphabets require more overhead such as escape codes.
