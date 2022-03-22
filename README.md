@@ -71,4 +71,4 @@ Example:
 The face with medical mask emoji in binary is:
 > 11110000 10011111 10011000 10110111
 
-![Face with medical mask emoji](./images/face_with_mask_emoji.png)
+![Face with medical mask emoji](./images/face_mask_emoji.png)
