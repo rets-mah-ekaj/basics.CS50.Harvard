@@ -54,9 +54,21 @@ Example:
 > So when someone sends a message as "HI!", it is actually sent as "72 73 33" which is represented in the form binary language as "1001000 1001001 0100001".
 
 #### ASCII Table from 0 to 127
-![ASCII Table from 0 to 127](./ASCII_Table.png)
+![ASCII Table from 0 to 127](./images/ASCII_Table.png)
 ---
 
 Disadvantage of ASCII:
 - Limited character set - With extended ASCII also, we can represent only 256 characters.
 - Inefficient character encoding - ASCII encoding is efficient only for English language and numerical data but representing characters from other alphabets require more overhead such as escape codes.
+
+### [Unicode - Alternative of ASCII](https://en.wikipedia.org/wiki/Unicode)
+It is an information technology standard for consistent encoding, representation and handling of text expressed in most of the world's writing systems.
+> In short, other characters such as letters with accent marks and symbols from other languages are represented by Unicode which uses more bits than ASCII to accommodate all those characters.
+
+Hence, even when we receive an emoji, our computers actually receive a number in binary which is mapped to the image of emoji based on the UNICODE standard.
+
+Example:
+The face with medical mask emoji in binary is:
+> 11110000 10011111 10011000 10110111
+
+![Face with medical mask emoji](./images/face_with_mask_emoji.png)
