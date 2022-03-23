@@ -72,3 +72,11 @@ The face with medical mask emoji in binary is:
 > 11110000 10011111 10011000 10110111
 
 ![Face with medical mask emoji](./images/face_mask_emoji.png)
+
+**Here we can see that the emojis are slightly different from each other because various organisations make there own slightly different version of emojis. It is just that the basic structure of the emoji is defined by the UNICODE.**
+
+### **Images, Videos, Sounds**
+- Not only letters, numbers and symbols, we can also map colors to bits as well. There are many systems out there to do just that, but the most famous is **RGB**, which represents colors by indicating the amount of *red, green and blue* within each colour and also because any colour can be formed by mixing the amounts of these colours.
+
+**Example:**
+> Let the amount of red, green and blue be represented by 72, 73 and 33. Each of the three numbers will be represented by 8 bits with 256 values. So with 3 Bytes or 24 bits, we can represent million colors. Our three bytes from above would represent a dark shadow of yellow.
